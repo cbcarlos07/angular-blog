@@ -1,7 +1,8 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from "@angular/core";
 import { HomeComponent } from "./home/home.component";
 import { PagesRoutingModule } from "./pages.routing";
-import { ComponentsModule } from "../components/components.module";
+import { ComponentsModule } from "../shared/components/components.module";
+
 
 @NgModule({
     declarations: [
